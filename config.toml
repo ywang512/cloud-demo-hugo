@@ -5,5 +5,5 @@ theme = "ananke"
 
 [[deployment.targets]]
 # An arbitrary name for this target
-name = ""
+name = "aws-s3-cloud-demo-hugo-website"
 URL = "s3://cloud-demo-hugo-website/?region=us-east-1"
