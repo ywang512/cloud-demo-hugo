@@ -2,3 +2,8 @@ baseURL = "http://example.org/"
 languageCode = "en-us"
 title = "My New Hugo Site"
 theme = "ananke"
+
+[[deployment.targets]]
+# An arbitrary name for this target
+name = ""
+URL = "s3://cloud-demo-hugo-website/?region=us-east-1"
